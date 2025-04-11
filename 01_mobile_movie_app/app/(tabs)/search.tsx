@@ -6,6 +6,7 @@ import { fetchPopularMovies } from '@/services/api';
 import MovieCard from '@/components/MovieCard';
 import { icons } from '@/constants/icons';
 import SearchBar from '@/components/SearchBar';
+import { updateSearchCount } from '@/services/appwrite';
 
 const Search = () => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -21,9 +22,14 @@ const Search = () => {
     }, [reset]);
 
     useEffect(() => {
-        const timeoutId = setTimeout(() => {
+
+        const timeoutId = setTimeout(async () => {
             if (searchQuery.trim()) {
                 fetchMovies();
+
+                if (movies?.length > 0 && movies?.[0]) {
+                    await updateSearchCount(searchQuery, movies[0]);
+                }
             } else {
                 resetSearch();
             }
