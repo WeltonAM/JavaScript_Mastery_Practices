@@ -1,0 +1,26 @@
+🚀 JSI - JavaScript Interface
+A lightweight, faster alternative to the traditional React Native bridge. It allows direct, synchronous communication between JavaScript and native code (Java/Kotlin for Android, Objective-C/Swift for iOS), without relying on JSON serialization or the bridge queue.
+
+This enables better performance and opens the door for more advanced features like Fabric and TurboModules.
+
+⚡ TurboModules
+An enhancement to the native module system in React Native. Unlike the old system where all native modules are loaded at app startup, TurboModules are lazily loaded — meaning they are only loaded when needed, improving startup performance.
+
+TurboModules also take advantage of JSI to allow faster method calls between JS and native code.
+
+🎨 Fabric
+The new rendering architecture in React Native that improves performance and consistency in UI updates. It replaces the old React Native renderer and enables:
+
+Synchronous rendering with the native UI thread
+
+Better support for concurrent rendering (aka React 18’s Concurrent Mode)
+
+More efficient UI updates via Shadow Trees and JSI
+
+It’s built to be more flexible and performant for complex UI use cases and tight integration with native views.
+
+💡 Summary (TL;DR)
+Concept	         What it Improves	        How It Works
+JSI	         JS ↔ Native communication	Direct calls, no bridge serialization
+TurboModules 	 Native module loading	        Lazy loading + JSI = faster startup
+Fabric	         UI rendering	                New renderer using JSI for efficiency
