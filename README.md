@@ -1,34 +1,29 @@
-# JavaScript_Mastery_Practices
-
-Learning JS/TS by building projects with React Native, React, Next.js, and NestJS — guided by tutorials from this YouTube channel.
+# 📱 React Native Mastery: Personal Learning Projects
 
 <div align="center">
   <br />
-  <img src="https://i.postimg.cc/Y24xGvW8/github.png" alt="Learning Banner" />
+  <img src="./assets//react-native-mastery.png" alt="Learning Banner" />
   <br />
 
   <div>
-    <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=typescript&logoColor=white&color=3178C6" alt="TypeScript" />
     <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native" />
-    <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/-NestJS-black?style=for-the-badge&logo=nestjs&logoColor=E0234E" alt="NestJS" />
   </div>
 
-  <h2>🧠 Learning JavaScript & TypeScript by Building Real Projects</h2>
+  <h2>🧠 React Native Learning Journey with Real Projects</h2>
   <p>
-    Guided by tutorials from the <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><strong>JavaScript Mastery</strong></a> YouTube channel.
+    Guided by tutorials from various sources and hands-on practice.
   </p>
 </div>
+
+> **Personal repository to study React Native and related technologies by building real applications**.
 
 ---
 
 ## 📚 About This Repository
 
-This repository documents my journey of **learning JavaScript and TypeScript** through real-world projects — ranging from full-stack apps to mobile-first experiences. Every project here is built while following along with detailed and high-quality tutorials on the [JavaScript Mastery](https://www.youtube.com/@javascriptmastery/videos) channel.
+This is my **personal learning space**, focused on mastering **React Native** and related technologies like backend APIs, TypeScript, and mobile tooling... through hands-on practice.
 
-Rather than theory, this approach focuses on **learning by doing**, practicing the most used modern web and mobile technologies in a structured way.
+Rather than reading docs or watching tutorials passively, I build real applications by following along with high-quality tutorials from the channels.
 
 ---
 
@@ -55,44 +50,45 @@ Each project explores specific technologies and architectural patterns:
 Learning by building real apps cements your understanding much better than reading docs alone.
 
 ✅ **Up-to-Date Stack**  
-All technologies used here are in-demand in 2024/2025 and widely used in production environments.
-
-✅ **Instructor-Led**  
-Guided by [JavaScript Mastery](https://www.youtube.com/@javascriptmastery/videos), one of the best learning resources for JavaScript developers.
+All technologies used here are in-demand and widely used in production environments.
 
 ✅ **Portfolio-Ready**  
 These projects are not toy examples — they can be extended into real portfolio pieces or even MVPs.
 
 ---
 
-## 📺 YouTube Channel That Guides This Journey
+## 🎯 Learning Goals
 
-All tutorials used here are from the JavaScript Mastery YouTube channel:
+- Understand the React Native core ecosystem (navigation, state, styling)
+- Practice TypeScript in mobile development
+- Integrate real-world APIs and backend services
+- Build reusable components and scalable project structures
+- Learn to debug and test React Native apps
 
-<a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"> <img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" alt="JavaScript Mastery Banner" /> </a>
+---
 
-They specialize in teaching:
+## 📺 What Guides This Journey
 
-Modern web and mobile dev
+- Modern mobile development
+- Real product-level projects
+- React Native best practices
+- TypeScript best practices
+- Fullstack integrations
 
-Real product-level projects
+Highly recommended for any developer looking to build serious skills.
 
-TypeScript best practices
-
-Fullstack integrations
-
-Highly recommended for any developer at any level looking to improve their real-world dev skills.
+---
 
 ## 📎 Additional Notes
 
-This repo will continue to grow as I learn more and build more.
+This repo will continue to grow as I explore more technologies and build more apps.
 
 Contributions, suggestions, and feedback are always welcome!
 
-Join the Discord community to connect with other learners.
+---
 
 ## 🧾 License
 
-This repository is for educational purposes. All tutorials are credited to JavaScript Mastery.
+This repository is for educational purposes. All tutorials are credited to their original creators.
 
 ✨ Learning in public. Building in public. Growing in public. ✨
