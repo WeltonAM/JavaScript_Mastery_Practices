@@ -1,0 +1,29 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJlQG1haWwuY29tIiwiaWF0IjoxNzQ0ODI5NTg2LCJleHAiOjE3NDYxMjU1ODZ9.pQ9iAK0faRrTMh8gnSEO4kcHpvIabxxOhFRpFVeC_Ng
+@bookId = 67fffdab88ceee3795a8c66f
+
+### Create a book
+POST http://localhost:3000/api/book
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "title": "Clean Code",
+  "caption": "A Handbook of Agile Software Craftsmanship",
+  "rating": 5,
+  "image": "https://res.cloudinary.com/demo/image/upload/sample.jpg"
+}
+
+
+### Fetch all books
+GET http://localhost:3000/api/book?page=1&limit=5
+Authorization: Bearer {{token}}
+
+
+### Fetch user books recommendations
+GET http://localhost:3000/api/book/user
+Authorization: Bearer {{token}}
+
+
+### Delete a book
+DELETE http://localhost:3000/api/book/{{bookId}}
+Authorization: Bearer {{token}}
